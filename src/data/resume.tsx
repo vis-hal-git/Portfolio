@@ -225,6 +225,54 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "Spam-Ham Message Classifier (NLP Project)",
+      href: "https://github.com/vis-hal-git/Spam-Ham-Message-Classifier-NLP-Project-",
+      active: true,
+      description:
+        "A Natural Language Processing (NLP) based Spam Detection System that classifies text messages as either Spam or Ham (Not Spam) using the TF-IDF vectorizer for feature extraction and a Multinomial Naive Bayes classifier. Demonstrates a simple and effective approach to spam classification in email and SMS filtering.",
+      technologies: [
+        "Python",
+        "NLP",
+        "Machine Learning",
+        "Scikit-learn",
+        "TF-IDF",
+        "Naive Bayes"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/vis-hal-git/Spam-Ham-Message-Classifier-NLP-Project-",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Skin Cancer & Disease Detection",
+      href: "https://github.com/vis-hal-git/skin-cancer-detection",
+      active: true,
+      description:
+        "Automated detection and classification of skin cancer and various skin diseases using Machine Learning (ML) and Deep Learning (DL) models. Utilizes image classification techniques to distinguish between multiple skin conditions, including Melanoma, to assist in early diagnosis. Implemented traditional ML models (Decision Tree, KNN, Random Forest, SVC) and DL approaches using MobileNet as a feature extractor.",
+      technologies: [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "MobileNet",
+        "Scikit-learn",
+        "Computer Vision"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/vis-hal-git/skin-cancer-detection",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+    },
   ],
   hackathons: [
     {
